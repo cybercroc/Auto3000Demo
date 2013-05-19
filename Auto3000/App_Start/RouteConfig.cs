@@ -37,7 +37,15 @@ namespace Auto3000
             routes.MapRoute("AdminContactDelete", "admin/contact", new { controller = "AdminContact", action = "Delete" });
             #endregion
 
-        
+
+
+
+            #region[FE ROUTES]
+
+            routes.MapRoute("Home", "", new { controller = "FEHome", action = "Index" });
+            #endregion
+
+
         }
     }
 }
